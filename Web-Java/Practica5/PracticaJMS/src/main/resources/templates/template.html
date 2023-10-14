@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head th:fragment="head">
+        <meta charset="UTF-8">
+        <title th:text="${title}">Plantilla</title>
+
+        <link href="/webjars/bootstrap/5.2.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    </head>
+    <body>
+        <div class="container mt-5" th:fragment="nav">
+            <div class="">
+                <div class="d-flex flex-row">
+                    <div class="col-sm-2 flex-fill">
+                        <h3 >
+                            <a href="/" class="nav-title">Practica-JMS</a>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div th:fragment="scripts">
+            <script src="/webjars/jquery/3.6.1/jquery.min.js"></script>
+            <script src="/webjars/bootstrap/5.2.2/js/bootstrap.min.js"></script>
+            <script src="/webjars/sockjs-client/1.0.2/sockjs.min.js"></script>
+            <script src="/webjars/stomp-websocket/2.3.3/stomp.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js" integrity="sha512-GMGzUEevhWh8Tc/njS0bDpwgxdCJLQBWG3Z2Ct+JGOpVnEmjvNx6ts4v6A2XJf1HOrtOsfhv3hBKpK9kE5z8AQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </div>
+    </body>
+</html>

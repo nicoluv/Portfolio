@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head th:replace="template.html::head">
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <div th:replace="template.html::nav"></div>
+
+        <div class="container">
+            <div class="d-flex justify-content-lg-center">
+                <h2>Sensor 1</h2>
+            </div>
+
+            <div class="container row">
+                <span>Estos graficos son actualizados aproximadamente por minuto</span>
+                <div class="col-6 mt-5 mb-5">
+                    <div class="card text-white bg-dark">
+                        <canvas id="grafico"></canvas>
+                    </div>
+                </div>
+
+                <div class="col-6 mt-5 mb-5">
+                    <div class="card text-white bg-dark">
+                        <canvas id="grafico2"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-lg-center">
+                <h2>Sensor 2</h2>
+            </div>
+
+            <div class="container row">
+
+                <div class="col-6 mt-5 mb-5">
+                    <div class="card text-white bg-dark">
+                        <canvas id="grafico3"></canvas>
+                    </div>
+                </div>
+
+                <div class="col-6 mt-5 mb-5">
+                    <div class="card text-white bg-dark">
+                        <canvas id="grafico4"></canvas>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div th:replace="template.html::scripts"></div>
+        <script th:inline="javascript">
+
+            var tmp = 0;
+            var tmp2 = 0;
+            var miLista, miLista2 = null;
+            var clienteStomp, clienteStomp2 = null;
+
+            var temp = [];
+            var hum = [];
+
+            var temp2 = [];
+            var hum2 = [];
+
+            const data = {
+                datasets: [{
+                    label: 'Temperatura vs. Tiempo',
+                    backgroundColor: 'rgb(137,57,161)',
+                    borderColor: 'rgb(137,57,161)',
+                    data: temp,
+                }]
+            };
+
+            const config = {
+                type: 'line',
+                data: data,
+                options: {}
+            };
+
+            const grafico = new Chart(
+                document.getElementById('grafico'),
+                config
+            );
+            const data3 = {
+                datasets: [{
+                    label: 'Temperatura vs. Tiempo',
+                    backgroundColor: 'rgb(137,57,161)',
+                    borderColor: 'rgb(137,57,161)',
+                    data: temp2,
+                }]
+            };
+            const config3 = {
+                type: 'line',
+                data: data3,
+                options: {}
+            };
+            const grafico3 = new Chart(
+                document.getElementById('grafico3'),
+                config3
+            );
+            const data2 = {
+                datasets: [{
+                    label: 'Humedad vs. Tiempo',
+                    backgroundColor: 'rgb(71,173,137)',
+                    borderColor: 'rgb(71,173,137)',
+                    data: hum,
+                }]
+            };
+            const config2 = {
+                type: 'line',
+                data: data2,
+                options: {}
+            };
+            const grafico2 = new Chart(
+                document.getElementById('grafico2'),
+                config2
+            );
+            const data4 = {
+                datasets: [{
+                    label: 'Humedad vs. Tiempo',
+                    backgroundColor: 'rgb(71,173,137)',
+                    borderColor: 'rgb(71,173,137)',
+                    data: hum2,
+                }]
+            };
+
+            const config4 = {
+                type: 'line',
+                data: data4,
+                options: {}
+            };
+
+            const grafico4 = new Chart(
+                document.getElementById('grafico4'),
+                config4
+            );
+
+            var socket = new SockJS('/my-websocket');
+            clienteStomp = Stomp.over(socket);
+            clienteStomp.debug = null
+            clienteStomp.connect({}, function (frame) {
+                clienteStomp.subscribe('/topic/a', function (message) {
+                    miLista = JSON.parse(message.body)
+                    agregarData1(grafico, grafico2)
+                });
+            });
+
+            var socket2 = new SockJS('/my-websocket');
+            clienteStomp2 = Stomp.over(socket2);
+            clienteStomp2.debug = null
+            clienteStomp2.connect({}, function (frame) {
+                clienteStomp2.subscribe('/topic/b', function (message) {
+                    miLista2 = JSON.parse(message.body)
+                    agregarData2(grafico3, grafico4)
+                });
+            });
+
+            function agregarData1(graph, graph2) {
+                let x = null;
+
+                if(tmp !== miLista.length){
+                    for (let i = 0; i < miLista.length; i++) {
+                        if(i === miLista.length-1){
+                            tmp = miLista.length;
+                            x = miLista[i];
+                        }
+                    }
+                    graph.data.labels.push(x.fecha);
+
+                    graph.data.datasets.forEach((dataset) => {
+                        dataset.data.push(x.temperatura);
+                    });
+
+                    graph2.data.labels.push(x.fecha);
+
+                    graph2.data.datasets.forEach((dataset) => {
+                        dataset.data.push(x.humedad);
+                    });
+
+                    graph2.update();
+
+                    graph.update();
+                }
+
+            }
+
+            function agregarData2(graph3, graph4) {
+                let x = null;
+
+                if(tmp2 !== miLista2.length){
+
+                    for (let i = 0; i < miLista2.length; i++) {
+                        if(i === miLista2.length-1){
+                            tmp2 = miLista2.length;
+                            x = miLista2[i];
+                        }
+                    }
+
+                    graph3.data.labels.push(x.fecha);
+
+                    graph3.data.datasets.forEach((dataset) => {
+                        dataset.data.push(x.temperatura);
+                    });
+
+                    graph4.data.labels.push(x.fecha);
+
+                    graph4.data.datasets.forEach((dataset) => {
+                        dataset.data.push(x.humedad);
+                    });
+
+                    graph4.update();
+
+                    graph3.update();
+                }
+
+            }
+
+        </script>
+    </body>
+</html>

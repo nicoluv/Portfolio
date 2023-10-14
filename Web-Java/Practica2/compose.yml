@@ -1,0 +1,40 @@
+version: "3.8"
+services:
+
+  app_web:
+    build: .
+    container_name: app_web
+    ports:
+      - ${PORT_APP}:8080
+    env_file:
+      - .env
+    environment:
+      - NOMBRE_APP=$AMBIENTE
+    networks:
+      - red-app
+    volumes:
+      - volume-compose:${VOLUME_DB}
+    depends_on:
+      - database
+
+  database:
+    image:
+      buildo/h2database
+    ports:
+      - ${PORT_DATABASE}:8082
+    env_file:
+      - .env
+    volumes:
+      - ~/dato_mysql_compose:/var/lib/mysql
+      - volume:${VOLUME_DB}
+    networks:
+      - red-app
+
+
+
+networks:
+  red-app:
+
+volumes:
+  volume-compose:
+  volume:

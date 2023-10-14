@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-16T00:46:41Z" name="tarea10" finished-at="2021-03-16T00:46:41Z" duration-ms="76">
+    <groups>
+    </groups>
+    <test started-at="2021-03-16T00:46:41Z" name="TestNG tests" finished-at="2021-03-16T00:46:41Z" duration-ms="76">
+      <class name="tarea10.ColaPrioridadNGTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpClass" finished-at="2021-03-15T20:46:41Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testExtractMax()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testExtractMax" finished-at="2021-03-15T20:46:41Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractMax -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testHijoDerechaFinal()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testHijoDerechaFinal" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHijoDerechaFinal -->
+        <test-method signature="testHijoDerechaInicio()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testHijoDerechaInicio" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHijoDerechaInicio -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testHijoDerechaMedio()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testHijoDerechaMedio" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHijoDerechaMedio -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testHijoIzqFinal()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testHijoIzqFinal" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHijoIzqFinal -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testHijoIzqInicio()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testHijoIzqInicio" finished-at="2021-03-15T20:46:41Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHijoIzqInicio -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testHijoIzqMedio()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testHijoIzqMedio" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHijoIzqMedio -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testInsert()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testInsert" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInsert -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testMaximum()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testMaximum" finished-at="2021-03-15T20:46:41Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMaximum -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testPadreInicio()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testPadreInicio" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPadreInicio -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testPadreInicioFinal()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testPadreInicioFinal" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPadreInicioFinal -->
+        <test-method signature="testPadreMedio()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="testPadreMedio" finished-at="2021-03-15T20:46:41Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPadreMedio -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="setUpMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownMethod" finished-at="2021-03-15T20:46:41Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tarea10.ColaPrioridadNGTest@1794d431]" started-at="2021-03-15T20:46:41Z" name="tearDownClass" finished-at="2021-03-15T20:46:41Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tarea10.ColaPrioridadNGTest -->
+    </test> <!-- TestNG tests -->
+  </suite> <!-- tarea10 -->
+</testng-results>

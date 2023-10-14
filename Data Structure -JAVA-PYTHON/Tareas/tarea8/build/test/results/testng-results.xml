@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-25T04:05:31Z" name="tarea8" finished-at="2021-02-25T04:05:31Z" duration-ms="64">
+    <groups>
+    </groups>
+    <test started-at="2021-02-25T04:05:31Z" name="TestNG tests" finished-at="2021-02-25T04:05:31Z" duration-ms="64">
+      <class name="tarea8.BinarySearchNGTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpClass" finished-at="2021-02-25T00:05:31Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="testBinarySearchMedio()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="testBinarySearchMedio" finished-at="2021-02-25T00:05:31Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBinarySearchMedio -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testBinarySearchMedioPar()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="testBinarySearchMedioPar" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBinarySearchMedioPar -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testBinarySearchNoEsta()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="testBinarySearchNoEsta" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBinarySearchNoEsta -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testBinarySearchParF()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="testBinarySearchParF" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBinarySearchParF -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testBinarySearchParT()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="testBinarySearchParT" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBinarySearchParT -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method signature="testBinarySearchUnicoF()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="testBinarySearchUnicoF" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBinarySearchUnicoF -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testBinarySearchUnicoT()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="testBinarySearchUnicoT" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBinarySearchUnicoT -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="setUpMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="testInicio()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="testInicio" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInicio -->
+        <test-method is-config="true" signature="tearDownMethod()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownMethod" finished-at="2021-02-25T00:05:31Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tarea8.BinarySearchNGTest@57baeedf]" started-at="2021-02-25T00:05:31Z" name="tearDownClass" finished-at="2021-02-25T00:05:31Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tarea8.BinarySearchNGTest -->
+    </test> <!-- TestNG tests -->
+  </suite> <!-- tarea8 -->
+</testng-results>

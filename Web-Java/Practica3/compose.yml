@@ -1,0 +1,72 @@
+version: "3.8"
+services:
+  app_web1:
+    build: .
+    image: diegobenitez15/practica3
+    ports:
+      - ${PORT_APP1}:${PORT_APP1}
+    env_file:
+      - .env
+    environment:
+      - NOMBRE_APP=$AMBIENTE
+      - PORT=${PORT_APP1}
+    networks:
+      - red-app
+    volumes:
+      - volume-compose:${VOLUME_DB}
+    depends_on:
+      - database
+
+  app_web2:
+    build: .
+    image: diegobenitez15/practica3
+    ports:
+      - ${PORT_APP2}:${PORT_APP2}
+    env_file:
+      - .env
+    environment:
+      - NOMBRE_APP=$AMBIENTE
+      - PORT=${PORT_APP2}
+    networks:
+      - red-app
+    volumes:
+      - volume-compose:${VOLUME_DB}
+    depends_on:
+      - database
+
+  app_web3:
+    build: .
+    image: diegobenitez15/practica3
+    ports:
+      - ${PORT_APP3}:${PORT_APP3}
+    env_file:
+      - .env
+    environment:
+      - NOMBRE_APP=$AMBIENTE
+      - PORT=${PORT_APP3}
+    networks:
+      - red-app
+    volumes:
+      - volume-compose:${VOLUME_DB}
+    depends_on:
+      - database
+
+  database:
+    image:
+      buildo/h2database
+    ports:
+      - ${PORT_DATABASE}:8082
+    env_file:
+      - .env
+    volumes:
+      - ~/dato_mysql_compose:/var/lib/mysql
+      - volume:${VOLUME_DB}
+    networks:
+      - red-app
+
+networks:
+  red-app:
+
+volumes:
+  volume-compose:
+  volume:

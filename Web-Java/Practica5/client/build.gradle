@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group 'progweb'
+version '1.0-SNAPSHOT'
+mainClassName='progweb.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    implementation group: 'org.apache.activemq', name: 'activemq-all', version: '5.15.1'
+    implementation 'com.google.code.gson:gson:2.9.1'
+
+}
+
+shadowJar{
+    archivesBaseName = 'app'
+    archiveClassifier = ''
+    archiveVersion = ''
+}
+
+test {
+    useJUnitPlatform()
+}
